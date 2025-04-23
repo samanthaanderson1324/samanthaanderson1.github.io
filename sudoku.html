@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sudoku Fun</title>
+  <link rel="stylesheet" href="style.css"> <!-- or your actual CSS file -->
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #d9f8ff;
+      color: #4a4a48;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #6b665e;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #77717a;
+      margin-bottom: 2rem;
+    }
+
+    iframe {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(178, 18, 147, 0.08);
+      width: 100%;
+      max-width: 500px;
+      height: 600px;
+      margin: 0 auto 2rem;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: #867f76;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #f29a0c;
+    }
+
+    /* Navigation Styles */
+    .nav-link {
+        text-decoration: none; /* Removes underline */
+    }
+
+    /* Remove default list styling */
+    .navbar-nav {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+
+    /* Make the list items horizontal */
+    .nav-item {
+        display: inline-block; /* Display items horizontally */
+        margin-right: 20px; /* Space between items */
+    }
+  </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar-nav ms-auto py-4 py-lg-0 position-absolute top-0 end-0">
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="education.html">Education</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="experience.html">Experience</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="skills.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="travel.html">Travel</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="sudoku.html">Sudoku</a></li>
+            <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+  <h1>Sudoku Game Time!</h1>
+  <p>Exercise your brain with a game of sodoku! </p>
+ 
+  <iframe src="https://www.websudoku.com/?level=1" title="Sudoku Game"></iframe>
+
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
+
